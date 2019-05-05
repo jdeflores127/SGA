@@ -1,0 +1,11 @@
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/conectoresEJB/ConectorEJBFactory.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/conectoresEJB/ConectorEJB.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/cliente/Cliente.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/conectoresEJB/ConectorEJBWeblogic.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/conectoresEJB/CreadorConectorEJBFactory.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/servicios/PersonaEJBBean.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/servicios/PersonaEJBRemote.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/CapaDatos/DAO/PersonaDAO.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/conectoresEJB/ConectorEJBWAS.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/conectoresEJB/ConectorEJBJBoss.java
+/home/ale/Documents/workspace-spring-tool-suite-4-4.1.1.RELEASE/SGA/src/main/java/com/mx/sga/entidades/Persona.java
