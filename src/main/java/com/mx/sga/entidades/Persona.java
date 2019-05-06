@@ -9,9 +9,9 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 @Entity
-@NamedQueries({@NamedQuery(name="Persona.findAll",query="select p FROM Persona p ORDER BY p.id_Persona")})
+@NamedQueries({@NamedQuery(name="Persona.findAll",query="select p FROM Persona p ORDER BY p.idPersona")})
 public class Persona implements Serializable{
-	public static final long serialVersionUID=1L;
+	public static final long serialVersionUID=6529685098267757690L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id_Persona")
@@ -39,6 +39,14 @@ public class Persona implements Serializable{
 		this.telefono = telefono;
 		this.email=email;
 	}
+	public Persona(String nombre, String apPaterno, String apMaterno, String telefono, String email) {
+		super();
+		this.nombre = nombre;
+		this.apPaterno = apPaterno;
+		this.apMaterno = apMaterno;
+		this.telefono = telefono;
+		this.email=email;
+	}	
 
 	public int getIdPersona() {
 		return idPersona;
@@ -78,5 +86,12 @@ public class Persona implements Serializable{
 
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
+	}
+
+	@Override
+	public String toString() {
+		return "Persona [idPersona=" + idPersona + ", nombre=" + nombre + ", apPaterno=" + apPaterno + ", apMaterno="
+				+ apMaterno + ", telefono=" + telefono + ", email=" + email + "]";
 	}	
+	
 }

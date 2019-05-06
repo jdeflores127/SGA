@@ -1,11 +1,10 @@
+com/mx/sga/conectoresEJB/ConectorEJBJBoss.class
 com/mx/sga/servicios/PersonaEJBBean.class
 com/mx/sga/conectoresEJB/ConectorEJBWeblogic.class
-com/mx/sga/conectoresEJB/ConectorEJB.class
-com/mx/sga/entidades/Persona.class
-com/mx/sga/CapaDatos/DAO/PersonaDAO.class
-com/mx/sga/conectoresEJB/ConectorEJBWAS.class
-com/mx/sga/servicios/PersonaEJBRemote.class
-com/mx/sga/conectoresEJB/ConectorEJBJBoss.class
 com/mx/sga/conectoresEJB/ConectorEJBFactory.class
 com/mx/sga/cliente/Cliente.class
+com/mx/sga/conectoresEJB/ConectorEJB.class
+com/mx/sga/entidades/Persona.class
 com/mx/sga/conectoresEJB/CreadorConectorEJBFactory.class
+com/mx/sga/conectoresEJB/ConectorEJBWAS.class
+com/mx/sga/servicios/PersonaEJBRemote.class

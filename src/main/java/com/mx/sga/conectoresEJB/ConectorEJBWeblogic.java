@@ -13,7 +13,7 @@ public class ConectorEJBWeblogic implements ConectorEJB{
 	
 	public Context InicializarContexto(){
 		propiedades_EJB.put("java.naming.factory.initial", "weblogic.jndi.WLInitialContextFactory");
-		propiedades_EJB.put("java.naming.provider.url", "t3://192.168.1.71:7001");
+		propiedades_EJB.put("java.naming.provider.url", "t3://192.168.1.72:7001");
 		propiedades_EJB.put("java.naming.security.principal","weblogic");
 		propiedades_EJB.put("java.naming.security.credentials","hipersp31");
 		try {
